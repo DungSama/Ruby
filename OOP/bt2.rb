@@ -1,10 +1,12 @@
-#1 .Tạo một lớp gọi là MyCar. Khi bạn khởi tạo một phiên bản hoặc đối tượng mới của lớp, 
-# hãy cho phép người dùng xác định một số biến phiên bản cho chúng ta biết năm, màu sắc và kiểu xe. 
-# Tạo một biến thể hiện được đặt thành 0 trong quá trình khởi tạo đối tượng để theo dõi tốc độ hiện tại của ô tô.
-# Tạo các phương thức thể hiện cho phép xe tăng tốc, phanh và tắt máy.
-#2 .Thêm một phương thức truy cập vào lớp MyCar của bạn để thay đổi và xem màu xe của bạn. 
-# Sau đó, thêm một phương thức truy cập cho phép bạn xem, nhưng không sửa đổi, năm xe của bạn.
-#3 Tạo một phương thức được gọi spray_paint có thể được gọi trên một đối tượng và sẽ sửa đổi màu sắc của chiếc xe.
+# 1) Tạo một lớp gọi là MyCar. Khi bạn khởi tạo một phiên bản hoặc đối tượng mới của lớp, 
+#    hãy cho phép người dùng xác định một số biến phiên bản cho chúng ta biết năm, màu sắc và kiểu xe. 
+#    Tạo một biến thể hiện được đặt thành 0 trong quá trình khởi tạo đối tượng để theo dõi tốc độ hiện tại của ô tô.
+#    Tạo các phương thức thể hiện cho phép xe tăng tốc, phanh và tắt máy.
+
+# 2) Thêm một phương thức truy cập vào lớp MyCar của bạn để thay đổi và xem màu xe của bạn. 
+#    Sau đó, thêm một phương thức truy cập cho phép bạn xem, nhưng không sửa đổi, năm xe của bạn.
+
+# 3) Tạo một phương thức được gọi spray_paint có thể được gọi trên một đối tượng và sẽ sửa đổi màu sắc của chiếc xe.
 
 
 class MyCar
