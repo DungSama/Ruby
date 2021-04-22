@@ -1,13 +1,17 @@
-#1 Tạo một lớp cha được gọi Vehicleđể MyCarlớp của bạn kế thừa và di chuyển hành vi không dành riêng cho MyCarlớp đó sang lớp cha.
-# Tạo một hằng số trong MyCarlớp của bạn để lưu trữ thông tin về phương tiện làm cho nó khác với các loại Phương tiện khác.
-#Sau đó, tạo một lớp mới có tên MyTruck kế thừa từ lớp cha của bạn, 
-#lớp này cũng có một hằng số được định nghĩa để tách nó khỏi lớp MyCar theo một cách nào đó.
-#2 Thêm một biến lớp vào lớp cha của bạn để theo dõi số lượng các đối tượng được tạo kế thừa từ lớp cha.
-# Tạo một phương thức để in ra giá trị của biến lớp này.
-#3 Tạo một mô-đun mà bạn có thể trộn vào MỘT trong các lớp con của bạn mô tả một hành vi duy nhất cho lớp con đó.
-#4 In ra màn hình bản tra cứu phương thức của bạn cho các lớp mà bạn đã tạo.
-#5 Di chuyển tất cả các phương thức từ lớp MyCar cũng liên quan đến lớp MyTruck vào lớp Xe. 
-# Đảm bảo rằng tất cả các lệnh gọi phương thức trước đó của bạn đang hoạt động khi bạn kết thúc.
+# 1) Tạo một lớp cha được gọi Vehicle để MyCarlớp của bạn kế thừa và di chuyển hành vi không dành riêng cho MyCarlớp đó sang lớp cha.
+#    Tạo một hằng số trong MyCar lớp của bạn để lưu trữ thông tin về phương tiện làm cho nó khác với các loại Phương tiện khác.
+#    Sau đó, tạo một lớp mới có tên MyTruck kế thừa từ lớp cha của bạn, 
+#    lớp này cũng có một hằng số được định nghĩa để tách nó khỏi lớp MyCar theo một cách nào đó.
+
+# 2) Thêm một biến lớp vào lớp cha của bạn để theo dõi số lượng các đối tượng được tạo kế thừa từ lớp cha.
+#    Tạo một phương thức để in ra giá trị của biến lớp này.
+
+# 3) Tạo một mô-đun mà bạn có thể trộn vào MỘT trong các lớp con của bạn mô tả một hành vi duy nhất cho lớp con đó.
+
+# 4) In ra màn hình bản tra cứu phương thức của bạn cho các lớp mà bạn đã tạo.
+
+# 5) Di chuyển tất cả các phương thức từ lớp MyCar cũng liên quan đến lớp MyTruck vào lớp Xe.
+#    Đảm bảo rằng tất cả các lệnh gọi phương thức trước đó của bạn đang hoạt động khi bạn kết thúc.
 module Towable
   def can_tow?(pounds)
     pounds < 2000 ? true : false

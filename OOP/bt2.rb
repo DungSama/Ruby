@@ -19,7 +19,7 @@ class MyCar
 	    @current_speed = 0
 	end
 
-	def tangToc(number)
+	def tang_toc(number)
 		@current_speed +=number
 		puts "tang toc #{number} mph"
 	end
@@ -29,11 +29,11 @@ class MyCar
 		puts "giam toc #{number} mph"
 	end
 
-	def tocDoHienTai
+	def toc_do_hien_tai
 		puts "toc do hien tai #{@current_speed} mph"
 	end
 
-	def tatMay
+	def tat_may
 		@current_speed = 0
 		puts "tat may"
 	end
@@ -45,12 +45,12 @@ class MyCar
 end
 
 vfast = MyCar.new(2021,"thethao","den")
-vfast.tangToc(20)
-vfast.tocDoHienTai
+vfast.tang_toc(20)
+vfast.toc_do_hien_tai
 vfast.phanh(10)
-vfast.tocDoHienTai
-vfast.tatMay
-vfast.tocDoHienTai
+vfast.toc_do_hien_tai
+vfast.tat_may
+vfast.toc_do_hien_tai
 #2
 vfast.color = 'trang'
 puts vfast.color
